@@ -1,0 +1,42 @@
+﻿#form1 {
+    margin:20px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    background-color: #222;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.container-flex:hover {
+    transform: scale(1.05);
+}
+
+#btnSalut {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#btnSalut:hover {
+    background-color: #333;
+    outline: 3px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
