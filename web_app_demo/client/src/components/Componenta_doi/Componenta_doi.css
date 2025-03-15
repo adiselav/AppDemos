@@ -1,0 +1,51 @@
+/* Container general */
+.div2 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin: 2rem;
+}
+
+/* Stil pentru buton */
+#butonul {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#butonul:hover {
+    background-color: #333;
+    outline: 3px solid rgba(255, 255, 255, 0.5); /* Contur alb semi-transparent */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Efect de glow */
+    transform: scale(1.05);
+}
+
+/* Container flex pentru utilizatori */
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Card stilizat pentru fiecare utilizator */
+.user-card {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    text-align: center;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+}
